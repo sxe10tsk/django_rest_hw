@@ -13,7 +13,7 @@ class SensorAdmin(admin.ModelAdmin):
 class MeasurementAdmin(admin.ModelAdmin):
 	list_display = (
 		'id',
-		'sensor',
+		'sensor_id',
 		'temperature',
 		'created_at',
 	)

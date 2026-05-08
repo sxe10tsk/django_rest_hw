@@ -24,7 +24,7 @@ PATCH {{baseUrl}}/sensors/1/
 Content-Type: application/json
 
 {
-  "description": "Датчик температуры сливного бочка"
+  "description": "Датчик температуры датчика"
 }
 
 ###
@@ -35,7 +35,7 @@ Content-Type: application/json
 
 {
   "sensor": 1,
-  "temperature": 31
+  "temperature": 93
 }
 
 ###

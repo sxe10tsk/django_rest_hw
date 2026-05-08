@@ -8,7 +8,7 @@ from measurement.models import Measurement, Sensor
 class MeasurementSerializer(serializers.ModelSerializer):
     class Meta:
         model = Measurement
-        fields = ['id', 'sensor', 'temperature', 'created_at', 'sensor_image']
+        fields = ['sensor', 'temperature', 'created_at', 'sensor_image']
 
 
 class SensorDetailSerializer(serializers.ModelSerializer):
